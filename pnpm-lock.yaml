@@ -1,0 +1,35 @@
+importers:
+  .:
+    devDependencies:
+      pnpm: 5.5.1
+    specifiers:
+      pnpm: ^5.5.1
+  apps/backEnd:
+    dependencies:
+      '@test/common1': 'link:../../packages/commonStuff1'
+      lowdash: 1.2.0
+    specifiers:
+      '@test/common1': '*'
+      lowdash: ^1.2.0
+  apps/frontEnd:
+    specifiers: {}
+  packages/commonStuff1:
+    dependencies:
+      lowdash: 1.2.0
+    specifiers:
+      lowdash: ^1.2.0
+  packages/commonStuff2:
+    specifiers: {}
+lockfileVersion: 5.1
+packages:
+  /lowdash/1.2.0:
+    dev: false
+    resolution:
+      integrity: sha512-oHdShh4q1SmsUkLBa9ITyi4x3ObxUxFeGNu7GCGta8b9jq0IAmZ/Zeapd/Ex7/OuA8tN96izhRdQlUcMe40Ing==
+  /pnpm/5.5.1:
+    dev: true
+    engines:
+      node: '>=10.13'
+    hasBin: true
+    resolution:
+      integrity: sha512-KpV6h/pVHTv4LY+DU+dbgPozMwpbvSNA+axj7ZxdgGWQTFpdOA/UQGHRe1zbcqWv7d7SKIURIwccyb8sGVRz1g==

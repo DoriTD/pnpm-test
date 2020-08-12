@@ -1,0 +1,14 @@
+{
+  "name": "@test/common1",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "lowdash":"^1.2.0"
+  },
+  "scripts": {
+    "build": "echo \"Error: no test specified\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

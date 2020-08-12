@@ -1,0 +1,16 @@
+{
+  "name": "@test/back-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@test/common1": "*",
+    "lowdash":"^1.2.0"
+  },
+  "scripts": {
+    "build": "echo \"Error: no test specified\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
